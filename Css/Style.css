@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+    
+}
+.body{
     background-color: rgb(24, 25, 31);
 }
 /*Banner*/
@@ -45,17 +48,30 @@
     width: 100%;
     height: 55%;
     background-image: url(/Imagenes/1920X1080_collected_photos_0024_DSC04237-1.jpg);
-    background-size: 100% 160%;
+    background-size: cover; /* Cambiado a cover para que la imagen cubra todo el contenedor */
     background-position: center;
+    position: relative; /* Añadido position relative para que los elementos hijos se posicionen relativos a este contenedor */
 }
 
-.img-arriba img {
+.filtro {
     filter: contrast(100%) brightness(50%);
+    background-color: rgba(26, 29, 36, 0); /* Fondo con transparencia */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    line-height: 1.7em;
+    text-align: center;
 }
 
-.img-arriba h3 h5{
-    color: white;
-
+.et_pb_text_inner h3,
+.et_pb_text_inner p {
+    margin: 0; /* Elimina el margen para evitar la separación alrededor del texto */
+    background-color: transparent; /* Establece el fondo del texto como transparente */
+    padding: 0; /* Elimina cualquier relleno alrededor del texto */
+    border: none; /* Elimina cualquier borde alrededor del texto */
 }
 
 .img-abajo {
@@ -112,13 +128,3 @@
 }
 
 
-.et_pb_text_inner, .et_pb_text_inner p, p {
-    color: white;
-    font-family: 'Muli', sans-serif;
-    font-weight: 300 !important;
-    line-height: 1.7em;
-}
-
-.et_pb_text_inner {
-    position: relative;
-}
