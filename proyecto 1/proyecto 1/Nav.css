@@ -15,7 +15,7 @@
     overflow: auto;
     background-color: rgb(27, 29, 36);
     width: 100%;
-    margin: 0% 5% 0% 2.5%; /* 0 para el margen superior e inferior, 10px para el margen izquierdo y derecho */
+    margin: 0% 2% 0% 2.5%; /* 0 para el margen superior e inferior, 10px para el margen izquierdo y derecho */
     display: flex;
     justify-content: space-between; /* Utiliza space-between para separar los elementos */
     align-items: center; /* Centra verticalmente los elementos en el contenedor */
@@ -30,7 +30,7 @@
 
 
 .Titles{
-    margin: 50;
+    margin-left: 27%;
     padding: 0;
     text-align: center;
     display: flex;
@@ -58,8 +58,8 @@
 
 
 .Redes{
-    margin: 0;
-    padding: 0;
+    margin-left: 0%;
+    padding-left: 0;
     text-align: center;
     display: flex;
 }
