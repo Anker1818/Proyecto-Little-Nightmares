@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(24, 25, 31);
+}
+
+/*Header*/
+.header {
+    background-color: rgb(27, 29, 36);
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    top: 0; 
+    z-index: 1000;
+    position: sticky; 
+    height: 80px;
+}
+
+
+.flex-header {
+    overflow: auto;
+    background-color: rgb(27, 29, 36);
+    width: 90%;
+    margin: 0% 5% 0% 5%; /* 0 para el margen superior e inferior, 10px para el margen izquierdo y derecho */
+    display: flex;
+    justify-content: space-between; /* Utiliza space-between para separar los elementos */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+}
+
+.logo {
+    width: 9%;
+    height: auto; /* Utiliza auto para mantener la relación de aspecto */
+}
+
+.barramovil {
+    width: 3.7%;
+    height: auto;
+    margin-left: auto; /* Mueve la imagen hacia la derecha */
+}
+
+/*Banner*/
+.banner {
+    position: relative;
+    display: block;
+
+}
+
+.banner img {
+    height: 10%;
+    width: 100%;
+
+}
+/* contenido */
+.flex-content {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    margin: 0%;
+}
+
+.img-arriba {
+    width: 80%; /* Ancho de la imagen */
+    height: auto; /* Altura ajustable */
+}
+
+.texto-arriba {
+    position: absolute;
+    top: 10px; /* Ajusta la posición del texto */
+    left: 10px; /* Ajusta la posición del texto */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño de fuente del texto */
+    font-weight: bold; /* Peso de la fuente del texto */
+}
+
+.img-abajo {
+    width: 80%; /* Ancho de la imagen */
+    height: auto; /* Altura ajustable */
+}
