@@ -49,6 +49,15 @@
     background-position: center;
 }
 
+.img-arriba img {
+    filter: contrast(100%) brightness(50%);
+}
+
+.img-arriba h3 h5{
+    color: white;
+
+}
+
 .img-abajo {
     width: 100%; /* Ancho de la imagen */
     height: 45%;
@@ -104,6 +113,7 @@
 
 
 .et_pb_text_inner, .et_pb_text_inner p, p {
+    color: white;
     font-family: 'Muli', sans-serif;
     font-weight: 300 !important;
     line-height: 1.7em;
