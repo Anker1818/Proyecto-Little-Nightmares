@@ -33,16 +33,8 @@
     margin-left: 10%;
     margin-right: 10%;
     width: 80%;
-    height:740px;
-
-
+    height: 740px;
 }
-
-/*<img src="/Imagenes/1920X1080_collected_photos_0024_DSC04237-1.jpg" alt="Imagen Arriba" class="img-arriba">
-<p class="texto-arriba">Texto sobre la imagen</p>
-<img src="/Imagenes/4b6de9f00d7a732e3d374431e972339f.webp" alt="Imagen Abajo" class="img-abajo">
-*/
-
 
 .img-arriba {
     width: 100%;
@@ -80,8 +72,6 @@
     background-image: url(/Imagenes/4b6de9f00d7a732e3d374431e972339f.webp);
     background-size: 100% 150%;
     background-position: center bottom 40%;
-    
-
 }
 
 .Part2{
