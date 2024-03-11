@@ -87,10 +87,10 @@
     background-color: aqua;
     position: relative;
     display: flex;
-    margin-top: 2%;
+    margin-top: 5%;
     flex-direction: column;
     align-items: center;
-    width: 80%; /* Ajusta el ancho del div según tus necesidades */
-    height: 400px; /* Ajusta la altura del div según tus necesidades */
+    width: 88%; /* Ajusta el ancho del div según tus necesidades */
+    height: 200px; /* Ajusta la altura del div según tus necesidades */
 
 }
