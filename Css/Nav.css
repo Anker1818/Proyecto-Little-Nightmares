@@ -1,6 +1,6 @@
 /*Header*/
 .Nav {
-    background-color: rgb(27, 29, 36);
+    background-color: rgb(24, 25, 31);
     padding: 0px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 900;
@@ -13,7 +13,7 @@
 
 .flex-nav {
     overflow: auto;
-    background-color: rgb(27, 29, 36);
+    background-color: rgb(24, 25, 31);
     width: 100%;
     margin: 0% 2% 0% 2.5%; /* 0 para el margen superior e inferior, 10px para el margen izquierdo y derecho */
     display: flex;
