@@ -4,11 +4,9 @@
     padding: 0%;
     background-color: rgb(24, 25, 31);
 }
-
- 
-
 /*Banner*/
 .banner {
+    padding-top: 5.4%;
     position: relative;
     display: block;
 
