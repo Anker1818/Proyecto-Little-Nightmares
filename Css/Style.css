@@ -101,3 +101,14 @@
     height: 200px; /* Ajusta la altura del div según tus necesidades */
 
 }
+
+
+.et_pb_text_inner, .et_pb_text_inner p, p {
+    font-family: 'Muli', sans-serif;
+    font-weight: 300 !important;
+    line-height: 1.7em;
+}
+
+.et_pb_text_inner {
+    position: relative;
+}
