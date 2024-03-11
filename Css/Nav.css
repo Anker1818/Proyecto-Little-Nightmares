@@ -47,6 +47,7 @@
 }
 
 .Titles ul li{
+    margin-top: 2%;
     margin-right: 15%;
     align-items: border ;
 
@@ -55,6 +56,12 @@
 .Titles ul li a{
     text-decoration: none;
     color: white;
+    font-size: 16px;
+}
+
+.Titles ul li a:hover{
+    text-decoration: none;
+    color: rgb(188, 141, 30);
     font-size: 16px;
 }
 
