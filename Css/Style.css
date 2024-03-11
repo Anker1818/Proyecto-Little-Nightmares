@@ -5,7 +5,7 @@
     
 }
 .body{
-    background-color: rgb(24, 25, 31);
+    background-color: #14171C;
 }
 /*Banner*/
 .banner {
@@ -88,10 +88,10 @@
 }
 
 .Part2{
-    background-color: aqua;
+    background-color: #1A1D24;
     position: relative;
     display: flex;
-    margin-top: 10%;
+    margin-top: 2.5%;
     flex-direction: column;
     align-items: center;
     width: 80%; /* Ajusta el ancho del div según tus necesidades */
@@ -107,7 +107,7 @@
 }
 
 .Part3{
-    background-color: aqua;
+    background-color: rgb(24, 25, 31);
     position: relative;
     display: flex;
     margin-top: 2%;
