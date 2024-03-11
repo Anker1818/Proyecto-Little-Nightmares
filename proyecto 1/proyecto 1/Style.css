@@ -5,38 +5,7 @@
     background-color: rgb(24, 25, 31);
 }
 
-/*Header*/
-.header {
-    background-color: rgb(27, 29, 36);
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    top: 0; 
-    z-index: 1000;
-    position: sticky; 
-    height: 80px;
-}
-
-
-.flex-header {
-    overflow: auto;
-    background-color: rgb(27, 29, 36);
-    width: 90%;
-    margin: 0% 5% 0% 5%; /* 0 para el margen superior e inferior, 10px para el margen izquierdo y derecho */
-    display: flex;
-    justify-content: space-between; /* Utiliza space-between para separar los elementos */
-    align-items: center; /* Centra verticalmente los elementos en el contenedor */
-}
-
-.logo {
-    width: 9%;
-    height: auto; /* Utiliza auto para mantener la relación de aspecto */
-}
-
-.barramovil {
-    width: 3.7%;
-    height: auto;
-    margin-left: auto; /* Mueve la imagen hacia la derecha */
-}
+ 
 
 /*Banner*/
 .banner {
@@ -53,19 +22,20 @@
 /* contenido */
 .flex-content {
     display: flex;
-    margin-top: 40px;
+    margin-top: 3%;
     flex-direction: column;
     align-items: center;
 }
 
 .image-container {
     position: relative;
-    margin: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .img-arriba {
-    width: 80%; /* Ancho de la imagen */
-    height: auto; /* Altura ajustable */
+    width: 100%; /* Ancho de la imagen */
+    height: 10%; /* Altura ajustable */
 }
 
 .texto-arriba {
@@ -78,6 +48,6 @@
 }
 
 .img-abajo {
-    width: 80%; /* Ancho de la imagen */
+    width: 100%; /* Ancho de la imagen */
     height: auto; /* Altura ajustable */
 }

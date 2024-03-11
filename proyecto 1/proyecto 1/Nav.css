@@ -1,0 +1,116 @@
+/*Header*/
+.Nav {
+    background-color: rgb(27, 29, 36);
+    padding: 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 900;
+    position: fixed; 
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+
+
+.flex-nav {
+    overflow: auto;
+    background-color: rgb(27, 29, 36);
+    width: 100%;
+    margin: 0% 5% 0% 2.5%; /* 0 para el margen superior e inferior, 10px para el margen izquierdo y derecho */
+    display: flex;
+    justify-content: space-between; /* Utiliza space-between para separar los elementos */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+}
+
+.flex-nav img{
+    max-width: 5.5%;
+    max-height: auto;
+    position: flex;
+    text-align: left;
+}
+
+
+.Titles{
+    margin: 50;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.Titles ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.Titles ul li{
+    margin-right: 15%;
+    align-items: border ;
+
+}
+
+.Titles ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+.Redes{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.Redes ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+}
+
+.Redes ul li{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+
+.Redes ul li:nth-child(4){
+    display: inline-block;
+    margin-right: 10%;
+}
+
+
+
+.Redes ul li:nth-child(5){
+    display: inline-block;
+    margin-right: 10%;
+}
+
+
+
+
+.Redes ul li a{
+    display: flex;
+}
+
+.Redes ul li a img{
+    max-width: 70%;
+    max-width: auto;
+}
+
+
+
+.Redes ul li:nth-child(4) a img{
+    max-width: 150%;
+    max-width: auto;
+    margin-right: 2%;
+}
+
+.Redes ul li:nth-child(5) a img{
+    max-width: 150%;
+    max-width: auto;
+}
