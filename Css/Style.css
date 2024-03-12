@@ -237,16 +237,18 @@
 .Contacto input{
     color: aliceblue;
     background-color: #1F232B;
-    width: 18%;
-    height: auto;
+    width: 17%;
+    height: 20%;
     border: none;
+    margin-top: 1%;
     padding: 15px 20px 15px 20px;
+    font-size: 15px;
 
 }
 
 .Contacto a{
     margin-top: 2%;
-    width: 9%;
+    width: 8%;
     height: auto;
 
 }
@@ -254,12 +256,12 @@
 
     color: aliceblue;
     background-color: #1F232B;
-
-
     border: none;
     padding: 15px 20px 15px 20px;
+    margin-bottom: 40%;
 
 }
+
 
 
 
