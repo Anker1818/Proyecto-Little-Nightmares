@@ -34,7 +34,7 @@
 }
 
 .FooterList span{
-    color: aliceblue;
+    color: #CBCBCB;
     padding-right: 5%;
     
 }
@@ -42,7 +42,7 @@
 .FooterList li{
     align-items: border ;
     list-style: none;
-    color: aliceblue;
+    color: #CBCBCB;
     font-size: 14px;
 
 }
@@ -50,7 +50,7 @@
 .FooterList a{
 
     font-family: 'Muli', sans-serif;
-    color: aliceblue;
+    color: #CBCBCB;
     text-decoration: none;
 
 }
