@@ -74,6 +74,11 @@
     background-position: center bottom 40%;
 }
 
+
+
+
+
+
 .Part2{
     background-color: #1A1D24;
     position: relative;
@@ -85,6 +90,12 @@
     height: 380px; /* Ajusta la altura del div según tus necesidades */
 
 }
+
+
+
+
+
+
 .Part2 img{
     position: absolute;
     top: 0;
@@ -92,6 +103,57 @@
     max-width: 50%; /* Ajusta el ancho máximo de la imagen según tus necesidades */
 
 }
+
+.TextPart2{
+    background-color: #1a1d244d;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 9%;
+    padding-top: 8%;
+    width: 100%; /* Ajusta el ancho del div según tus necesidades */
+    height: 380px; /* Ajusta la altura del div según tus necesidades */
+    
+}
+
+.TextPart2 h1, h2, p,h3{
+    margin-top: 1.5%;
+    margin-left: 54%;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.TextPart2  h2, p, h3{
+    color: aliceblue;
+}
+.TextPart2  h1{
+    color: #B88D5B;
+    font-size: 16px;
+}
+.TextPart2  h2{
+    font-size: 30px;
+}
+.TextPart2  p{
+    font-size: 18px;
+}
+.TextPart2  h3{
+    padding-top: 1%;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+.TextPart2 img{
+    max-width: 4%;
+    margin-top: 19%;
+    margin-left: 65%;
+    cursor: pointer;
+
+}
+
+
+
 
 .Part3{
     background-color: rgb(24, 25, 31);
