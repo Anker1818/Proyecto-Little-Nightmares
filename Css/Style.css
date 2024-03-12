@@ -171,58 +171,64 @@
 
 
 
-.Part3{
+.Part3 {
     background-color: rgb(24, 25, 31);
     position: relative;
     display: flex;
     margin-top: 2.5%;
-    
     align-items: center;
     width: 80%; /* Ajusta el ancho del div según tus necesidades */
     height: 450px; /* Ajusta la altura del div según tus necesidades */
 }
 
-.Part3-1{
+.Part3-1 {
     font-size: 1.5em !important;
-    font-family: 'Muli', sans-serif !important;
     background-color: rgb(42, 45, 63);
     position: relative;
     display: flex;
     margin-top: 2.5%;
-    
     align-items: center;
     width: 100%; /* Ajusta el ancho del div según tus necesidades */
     height: 450px; /* Ajusta la altura del div según tus necesidades */
 }
 
-.Part3Img{
+.Part3Img {
     width: 100%;
     height: 100%;
     background-image: url(/Imagenes/1920X1080_collected_photos_0006_DSC04294.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
+}
 
-}
-.Part3Text{
+.Part3Text {
+    font-family: 'Muli', sans-serif;
     width: 50%;
-    height: 100%;
-    background-color: rgba(74, 74, 74, 0.801);
     margin-left: 50%;
-    padding-top: 3px;
+    height: 100%;
+    background-color: rgba(42, 41, 49, 0.801);
+    padding: 20px; /* Ajustar el padding para separar el contenido del borde */
+    display: flex; /* Usar flexbox para alinear el contenido */
+    justify-content: flex-start; /* Alinear el contenido al principio */
+    align-items: center; /* Centrar verticalmente el contenido */
 }
-.ContPart3Text{
-display: flex;
-flex-direction: row;
- margin: 0%;
+
+.ContPart3Text {
+    display: flex;
+    flex-direction: column; /* Cambiar a disposición de columna */
+    margin: 0% 15% 0% 15%; /* Añadir margen izquierdo para separar del borde */
 }
-.ContPart3Text h4{
+
+.ContPart3Text h4 {
     color: white;
+    margin-bottom: 18px; 
 }
-.ContPart3Text p{
+
+.ContPart3Text p {
     color: white;
-    justify-self: right;
-    padding-right: 10000px;
+    font-size: 18px;
+    margin: 10px; 
+    text-align: justify;
 }
 
 
