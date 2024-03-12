@@ -60,11 +60,23 @@
 
 .et_pb_text_inner h3,
 .et_pb_text_inner p {
-    margin: 0; /* Elimina el margen para evitar la separación alrededor del texto */
-    background-color: transparent; /* Establece el fondo del texto como transparente */
-    padding: 0; /* Elimina cualquier relleno alrededor del texto */
-    border: none; /* Elimina cualquier borde alrededor del texto */
+    margin: 0% 20% 0% 20%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    font-size: 25px;
+    text-align: justify;
 }
+    .et_pb_text_inner h5 {
+        color: #d5a265 !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 0.80em;
+        letter-spacing: 0.1em
+    }
+
 
 .img-abajo {
     width: 100%; /* Ancho de la imagen */
@@ -72,6 +84,7 @@
     background-image: url(/Imagenes/4b6de9f00d7a732e3d374431e972339f.webp);
     background-size: 100% 150%;
     background-position: center bottom 40%;
+    filter: blur(0.6px);
 }
 
 
