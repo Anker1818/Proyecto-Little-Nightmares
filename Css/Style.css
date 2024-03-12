@@ -228,15 +228,34 @@
     margin-top: 2%;
     margin-bottom: 1%;
     color: aliceblue;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
-.Contacto button{
-    margin-top: 2%;
+.Contacto input{
     color: aliceblue;
     background-color: #1F232B;
-    width: 10%;
+    width: 18%;
     height: auto;
+    border: none;
+    padding: 15px 20px 15px 20px;
+
+}
+
+.Contacto a{
+    margin-top: 2%;
+    width: 9%;
+    height: auto;
+
+}
+.Contacto a button{
+
+    color: aliceblue;
+    background-color: #1F232B;
+
+
     border: none;
     padding: 15px 20px 15px 20px;
 
