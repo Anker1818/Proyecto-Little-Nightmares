@@ -42,7 +42,8 @@
     background-image: url(/Imagenes/1920X1080_collected_photos_0024_DSC04237-1.jpg);
     background-size: cover;
     background-position: center;
-    position: relative;  
+    position: relative;
+    filter: contrast(100%) brightness(50%);  
 }
 
 .filtro {
