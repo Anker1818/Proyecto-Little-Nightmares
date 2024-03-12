@@ -9,3 +9,48 @@
     height: 300px; /* Ajusta la altura del div según tus necesidades */
 
 }
+
+.Footer p{
+    position: center;
+    text-align: Center;
+    margin-left: -1%;
+    font-size: 18px;
+
+}
+
+.Footer img{
+    padding-top: 2.5%;
+}
+
+.FooterList {
+    margin-left: 60%;
+    margin-top: 2%;
+
+}
+
+.FooterList ul {
+    list-style: none;
+    display: flex;
+}
+
+.FooterList span{
+    color: aliceblue;
+    padding-right: 5%;
+    
+}
+
+.FooterList li{
+    align-items: border ;
+    list-style: none;
+    color: aliceblue;
+    font-size: 14px;
+
+}
+
+.FooterList a{
+
+    font-family: 'Muli', sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+
+}
