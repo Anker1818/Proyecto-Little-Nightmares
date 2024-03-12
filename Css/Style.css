@@ -222,8 +222,27 @@
     align-items: center;
     width: 88%; /* Ajusta el ancho del div según tus necesidades */
     height: 200px; /* Ajusta la altura del div según tus necesidades */
+}
+
+.Contacto h1{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.Contacto button{
+    margin-top: 2%;
+    color: aliceblue;
+    background-color: #1F232B;
+    width: 10%;
+    height: auto;
+    border: none;
+    padding: 15px 20px 15px 20px;
 
 }
+
+
 
 /* button */
 
