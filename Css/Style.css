@@ -36,6 +36,13 @@
     height: 740px;
 }
 
+.Mondongo{
+    background-color: #1a202fb9;
+    width: 150%;
+    height: 100%;
+    padding-top: 5%;
+    }
+
 .img-arriba {
     width: 100%;
     height: 55%;
@@ -44,14 +51,14 @@
     background-position: center;
     position: relative;
     /* filter: contrast(100%) brightness(50%);*/
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(143, 18, 18);
 
 }
 
 
 
 .filtro {
-    background-color: rgba(26, 29, 36, 0); /* Fondo con transparencia */
+    background-color: rgba(43, 43, 162, 0.433); /* Fondo con transparencia */
     display: flex;
     align-items: center;
     color: white;
@@ -93,6 +100,7 @@
     background-image: url(/Imagenes/4b6de9f00d7a732e3d374431e972339f.webp);
     background-size: 100% 150%;
     background-position: center bottom 40%;
+    filter: blur(0.6px);
 }
 
 
@@ -174,7 +182,7 @@
     background-color: rgb(24, 25, 31);
     position: relative;
     display: flex;
-    margin-top: 3%;
+    margin-top: 2.5%;
     align-items: center;
     width: 80%; /* Ajusta el ancho del div según tus necesidades */
     height: 450px; /* Ajusta la altura del div según tus necesidades */
@@ -206,10 +214,10 @@
     margin-left: 50%;
     height: 100%;
     background-color: rgba(42, 41, 49, 0.801);
-    padding: 20px; 
-    display: flex;
-    justify-content: flex-start; 
-    align-items: center; 
+    padding: 20px; /* Ajustar el padding para separar el contenido del borde */
+    display: flex; /* Usar flexbox para alinear el contenido */
+    justify-content: flex-start; /* Alinear el contenido al principio */
+    align-items: center; /* Centrar verticalmente el contenido */
 }
 
 .ContPart3Text {
@@ -297,39 +305,9 @@
     margin-top: 20px; 
     margin-right: 15%; 
     padding: 30px;
-
-}
-
-.containerbutton1 {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end; /* Alinea el contenido al fondo */
-    margin-top: 20px; 
-    padding-top: 290px;
-    padding-left: 150px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-}
-
-.containerbutton2 {
-    position: relative;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end; /* Alinea el contenido al fondo */
-    padding-left: 85%;
-    margin: 10%;
-    box-shadow:  rgba(0, 0, 0, 0.3); 
-}
-
-.containerbutton3 {
-    position: relative;
-    display: flex;
-    padding-left: 0%;
-    box-shadow:  rgba(0, 0, 0, 0.3); 
 }
 
 .button {
-    font-size: 15px;
     background-color: rgb(26, 29, 36);
     font-weight: bold;
     color: white;
@@ -358,12 +336,4 @@
 .arrow-circle span {
     color: #d5a265;
     font-size: 20px;
-}
-.tex{
-    position: absolute;
-    margin-top: 80%;
-    margin-left: -70%;
-    text-align: right;
-    color: #d5a265;
-    cursor: pointer;
 }
