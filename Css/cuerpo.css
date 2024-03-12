@@ -6,6 +6,38 @@
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .col-t-1 {width: 8.33%;}
+  .col-t-2{
+    width: 90%;
+  }
+  .col-t-3{
+    height: 40%;
+  }
+  .col-t-4 {
+    padding-left: 5%; /* Ajustar el padding para dispositivos de pantalla pequeña */
+    padding-top: 5%; /* Ajustar el padding para dispositivos de pantalla pequeña */
+}
+
+.col-t-4 img {
+    width: 80px; /* Reducir el tamaño de la imagen en dispositivos de pantalla pequeña */
+}
+
+.col-t-4 h1 {
+    font-size: 14px; /* Reducir el tamaño del título en dispositivos de pantalla pequeña */
+}
+
+.col-t-4 h2 {
+    font-size: 24px; /* Reducir el tamaño del subtítulo en dispositivos de pantalla pequeña */
+}
+
+.col-t-4 p {
+    font-size: 16px; /* Reducir el tamaño del párrafo en dispositivos de pantalla pequeña */
+}
+
+.col-t-4 h3 {
+    font-size: 12px; /* Reducir el tamaño del texto secundario en dispositivos de pantalla pequeña */
+}
+
+
 
 }
 @media only screen and (min-width: 768px) {
